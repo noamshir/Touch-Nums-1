@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touch The Nums</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="init()">
+    <div class="screen">
+      <button onclick="resetGame()">New Game</button>
+      <div class="level">
+        <p>Choose difficulty:</p>
+        <form class="radio-bt">
+          <input onclick="sizeSet(this)" type="radio" id="easy" name="difficulty" value="Easy(4x4)" />
+          <label for="easy">Easy(4x4)</label>
+
+          <input
+          onclick="sizeSet(this)"
+            type="radio"
+            id="medium"
+            name="difficulty"
+            value="Medium(5x5)"
+          />
+          <label for="medium">medium(5x5)</label>
+
+          <input onclick="sizeSet(this)" type="radio" id="hard" name="difficulty" value="Hard(6x6)" />
+          <label for="hard">Hard(6x6)</label>
+        </form>
+      </div>
+      <div class="stats">
+        <div class="time">
+          <h2>0:00</h2>
+        </div>
+        <div class="num">
+          <h2>Next number: 1</h2>
+        </div>
+      </div>
+      <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+      </table>
+    </div>
+    <script src="js/touch-nums.js"></script>
+  </body>
+</html>

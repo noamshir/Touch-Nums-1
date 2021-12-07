@@ -1,0 +1,102 @@
+body {
+  background-color: springgreen;
+}
+.screen {
+  margin: auto;
+  background-color: darkkhaki;
+  height: 750px;
+  width: 600px;
+  border: 6px yellow solid;
+  border-radius: 5%;
+}
+button {
+  margin-top: 20px;
+  border: black 3px solid;
+  border-radius: 20%;
+  background-color: burlywood;
+  width: 60px;
+  height: 40px;
+  margin-left: 10px;
+}
+.level {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  /* padding: 10px; */
+  width: 560px;
+  height: 100px;
+  background-color: darkcyan;
+  border: 1px black solid;
+  text-align: center;
+}
+.stats {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  /* padding: 10px; */
+  width: 560px;
+  height: 80px;
+}
+
+
+
+.board {
+  background-color: red;
+  border: 5px black solid;
+  border-width: thick;
+  font-style: italic;
+  font-size: x-large;
+  font-weight: 900;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.board td {
+  width: 80px;
+  height: 80px;
+  /* width: 60px;
+  height: 60px; */
+  /* width: 45px;
+  height: 45px; */
+  text-align: center;
+  transition: 0.5s;
+  border: 2px seashell solid;
+}
+.num {
+  display: inline;
+  position: absolute;
+  height: 70px;
+  width: 200px;
+  background-color: white;
+  border: 2px black solid;
+  margin-left: 360px;
+  background-color: darkcyan;
+}
+.time {
+  display: inline;
+  position: absolute;
+  height: 70px;
+  width: 200px;
+  background-color: white;
+  border: 2px black solid;
+  background-color: darkcyan;
+}
+.num h2 {
+  color: rgb(36, 18, 195);
+  margin-left: 15px;
+}
+.time h2 {
+  margin-left: 15px;
+}
+
+.radio-bt {
+  /* margin-left: 60px; */
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: gold;
+  font-size: 20px;
+}
